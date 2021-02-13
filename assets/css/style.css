@@ -24,6 +24,7 @@ header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  z-index: 9999;
 }
 
 header h1 {
@@ -92,4 +93,116 @@ header nav ul li a {
   font-size: 36px;
   color: var(--primary-color);
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* About Me Style */
+
+.section-title {
+  font-size: 48px;
+  color: var(--secondary-color);
+  border-bottom: 3px solid;
+  padding: 20px 0;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 100%;
+}
+
+.about {
+  margin: 50px auto;
+  padding-bottom: 50px;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-img {
+  flex: 1 50%;
+  margin-right: 20px;
+}
+
+.about-text {
+  flex: 12;
+}
+
+.intro {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: space-between;
+}
+
+.intro p {
+  line-height: 1.7;
+  color: var(--tertiary-color);
+  width: 100%;
+  font-size: 20px;
+  margin: 0 auto;
+  text-align: right;
+}
+
+.intro img {
+  border-radius: 8px;
+  width: 100%;
+  margin: 20px;
+  flex: 1;
+}
+
+/* My Work Section */
+
+.my-work {
+  background-color: var(--tertiary-color);
+}
+
+.secondary-title {
+  font-size: 48px;
+  color:var(--primary-color);
+  border-bottom: 3px solid;
+  padding: 20px 0;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
+}
+
+.run-buddy {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: space-between;
+}
+
+.run-buddy img {
+  width: 80%;
+}
+
+.run-buddy img:hover,
+.horiseon img:hover,
+.robot img:hover
+{
+  opacity: 0.8;
+}
+
+.horiseon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  align-items: space-between;
+}
+
+.horiseon img {
+  width: 40%;
+}
+
+.robot {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  align-items: space-between;
+}
+
+.robot img {
+  width: 40%;
 }

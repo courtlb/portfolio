@@ -8,6 +8,9 @@
 		},
 		{
 			"path": "../horiseon"
+		},
+		{
+			"path": "../robot-gladiators"
 		}
 	],
 	"settings": {}
