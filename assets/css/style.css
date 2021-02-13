@@ -158,9 +158,6 @@ header nav ul li a {
 .run-buddy { 
   width: 90%;
   align-items: center;
-  position: relative;
-  text-align: center;
-  color: white;
   margin: 20px auto;
 }
 
@@ -190,15 +187,6 @@ header nav ul li a {
   justify-content: right;
   align-items: space-between;
   width: 100%;
-}
-
-.bottom-left {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-  font-size: 28px;
-  background-color: black;
-  opacity: 0.5;
 }
 
 /* Contact section */
