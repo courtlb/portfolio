@@ -7,10 +7,11 @@ A portfolio to explain a little about who I am, display my most recent work, and
 * HTML
 * CSS
 
-![Horiseon](horiseon-screenshot.png)
+![Portfolio](portfolio-screenshot.png)
 
 ## Website
 Website Link: https://courtlb.github.io/portfolio/
+
 Project Link: https://github.com/courtlb/portfolio 
 
 ## Contribution
