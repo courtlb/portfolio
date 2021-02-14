@@ -141,7 +141,7 @@ header nav ul li a {
   width: 100%;
   font-size: 20px;
   margin: 40px;
-  text-align: right;
+  text-align: justify;
 }
 
 
@@ -178,18 +178,12 @@ header nav ul li a {
   width: 90%;
 }
 
-.horiseon {
-  width: 48%;
-}
-
-.horiseon img {
-  width: 100%;
-}
-
+.horiseon,
 .robot {
   width: 48%;
 }
 
+.horiseon img,
 .robot img {
   width: 100%;
 }
