@@ -130,7 +130,7 @@ header nav ul li a {
   flex: 1 50%;
   border-radius: 8px;
   width: 50%;
-  margin: 20px;
+  margin: 20px auto;
 }
 
 .about p {
@@ -140,7 +140,7 @@ header nav ul li a {
   color: var(--tertiary-color);
   width: 100%;
   font-size: 20px;
-  margin: 0 auto;
+  margin: 40px;
   text-align: right;
 }
 
@@ -172,20 +172,25 @@ header nav ul li a {
 .work-row {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin: 20px auto;
+  width: 90%;
 }
 
 .horiseon {
+  width: 48%;
+}
+
+.horiseon img {
   width: 100%;
 }
 
 .robot {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: right;
-  align-items: space-between;
+  width: 48%;
+}
+
+.robot img {
   width: 100%;
 }
 
