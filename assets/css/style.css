@@ -155,13 +155,13 @@ header nav ul li a {
   justify-content: space-around;
 }
 
-.run-buddy { 
+.main-work { 
   width: 90%;
   align-items: center;
   margin: 20px auto;
 }
 
-.run-buddy img {
+.main-work img {
   width: 100%;
 }
 
